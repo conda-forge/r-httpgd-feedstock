@@ -3,6 +3,7 @@ About r-httpgd-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-httpgd-feedstock/blob/main/LICENSE.txt)
 
+
 About r-httpgd
 --------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/nx10/httpgd, https://nx10.github.io/httpgd/
 Package license: GPL-2.0-or-later
 
 Summary: A graphics device for R that is accessible via network protocols. This package was created to make it easier to embed live R graphics in integrated development environments and other applications. The included 'HTML/JavaScript' client (plot viewer) aims to provide a better overall user experience when dealing with R graphics. The device asynchronously serves graphics via 'HTTP' and 'WebSockets'.
+
 About r-httpgd
 --------------
 
@@ -146,7 +148,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
