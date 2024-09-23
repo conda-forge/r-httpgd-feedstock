@@ -7,20 +7,24 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-httpgd-feedst
 About r-httpgd
 --------------
 
-Home: https://github.com/nx10/httpgd, https://nx10.github.io/httpgd/
+Home: https://nx10.github.io/httpgd/
 
 Package license: GPL-2.0-or-later
 
 Summary: A graphics device for R that is accessible via network protocols. This package was created to make it easier to embed live R graphics in integrated development environments and other applications. The included 'HTML/JavaScript' client (plot viewer) aims to provide a better overall user experience when dealing with R graphics. The device asynchronously serves graphics via 'HTTP' and 'WebSockets'.
+
+Development: https://github.com/nx10/httpgd
 
 About r-httpgd
 --------------
 
-Home: https://github.com/nx10/httpgd, https://nx10.github.io/httpgd/
+Home: https://nx10.github.io/httpgd/
 
 Package license: GPL-2.0-or-later
 
 Summary: A graphics device for R that is accessible via network protocols. This package was created to make it easier to embed live R graphics in integrated development environments and other applications. The included 'HTML/JavaScript' client (plot viewer) aims to provide a better overall user experience when dealing with R graphics. The device asynchronously serves graphics via 'HTTP' and 'WebSockets'.
+
+Development: https://github.com/nx10/httpgd
 
 Current build status
 ====================
