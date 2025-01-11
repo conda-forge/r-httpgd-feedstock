@@ -12,7 +12,7 @@ source:
   sha256: 4f2764ebc1b29a70dcb4a2a1ed4b054713a0436fabce80162766fa9e144aec78
 
 build:
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -36,6 +36,9 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
+    - r-asioheaders >=1.22.1       # [build_platform != target_platform]
+    - r-cpp11 >=0.2.4              # [build_platform != target_platform]
+    - r-unigd                      # [build_platform != target_platform]
   host:
     - r-base
     - r-asioheaders >=1.22.1
@@ -57,7 +60,6 @@ about:
   license: GPL-2.0-or-later
   summary: A graphics device for R that is accessible via network protocols. This package was created to make it easier to embed live R graphics in integrated development environments and other applications. The included 'HTML/JavaScript' client (plot viewer) aims to provide a better overall user experience when dealing
     with R graphics. The device asynchronously serves graphics via 'HTTP' and 'WebSockets'.
-  license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
     - {{ environ["SRC_DIR"] }}/inst/licenses/belle-MIT.txt
