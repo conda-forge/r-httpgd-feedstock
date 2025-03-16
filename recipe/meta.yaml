@@ -1,4 +1,4 @@
-{% set version = "2.0.3" %}
+{% set version = "2.0.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/httpgd_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/httpgd/httpgd_{{ version }}.tar.gz
-  sha256: bd5a784f7cd5479bfa291314882cb9fda2de9f4b7e697dce0e5ffdf54069e90a
+  sha256: 7e25a1117be24b201dcf3a19587e92a6691729773f39891bff590edf025d3f49
 
 build:
   number: 0
