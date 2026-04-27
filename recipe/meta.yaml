@@ -1,4 +1,4 @@
-{% set version = "2.0.4" %}
+{% set version = "2.1.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/httpgd_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/httpgd/httpgd_{{ version }}.tar.gz
-  sha256: 7e25a1117be24b201dcf3a19587e92a6691729773f39891bff590edf025d3f49
+  sha256: 2e638a55b0c04a402b2036cb60869eae6e3b153a7ce18bff546caa0a3cd43d8e
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -59,13 +59,11 @@ about:
   home: https://nx10.github.io/httpgd/
   dev_url: https://github.com/nx10/httpgd
   license: GPL-2.0-or-later
-  summary: A graphics device for R that is accessible via network protocols. This package was created to make it easier to embed live R graphics in integrated development environments and other applications. The included 'HTML/JavaScript' client (plot viewer) aims to provide a better overall user experience when dealing
-    with R graphics. The device asynchronously serves graphics via 'HTTP' and 'WebSockets'.
+  summary: A graphics device for R that is accessible via network protocols. This package was created to make it easier to embed live R graphics in integrated development environments and other applications. The included 'HTML/JavaScript' client (plot viewer) aims to provide a better overall user experience when 
+    dealing with R graphics. The device asynchronously serves graphics via 'HTTP' and 'WebSockets'.
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
-    - {{ environ["SRC_DIR"] }}/inst/licenses/belle-MIT.txt
     - {{ environ["SRC_DIR"] }}/inst/licenses/CrowCpp-BSD-3-Clause.txt
-    - {{ environ["SRC_DIR"] }}/inst/licenses/material-design-icons-Apache-2-0.txt
 
 extra:
   recipe-maintainers:
