@@ -63,9 +63,7 @@ about:
     dealing with R graphics. The device asynchronously serves graphics via 'HTTP' and 'WebSockets'.
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
-    - {{ environ["SRC_DIR"] }}/inst/licenses/belle-MIT.txt
     - {{ environ["SRC_DIR"] }}/inst/licenses/CrowCpp-BSD-3-Clause.txt
-    - {{ environ["SRC_DIR"] }}/inst/licenses/material-design-icons-Apache-2-0.txt
 
 extra:
   recipe-maintainers:
